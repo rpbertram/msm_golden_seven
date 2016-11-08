@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # Route for bare domain:
-  # get('/', { :controller => 'movies', :action => 'index' })
+  get('/', { :controller => 'movies', :action => 'index' })
 
   # Routes for the Director resource:
   # CREATE
